@@ -29,6 +29,7 @@ main{
 
 .first-page-wrapper{
     display: flex;
+    
 }
 
 nav{
@@ -39,10 +40,11 @@ nav{
     background-color: var(--nav);
     transition: 1s ease-in-out;
     overflow: hidden;
+    border-right: 1px solid;
 }
 
 .active{
-    width:180px;
+    width:160px;
     background-color: #73c5ab;
     transition: 1s ease-in-out;
 }
@@ -52,8 +54,8 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin:120px auto 0;
-    gap: 70px;
+    margin:100px auto 0;
+    gap: 50px;
 
 }
 
@@ -61,12 +63,28 @@ nav{
     display: flex;
     width:100%;
     align-items: center;
+    transition: 0.25s ease-in-out;
+    
 }
 
+.nav-item a{
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.25s ease-in-out;
+}
 
 .nav-item-text{
+
+color: black;
 text-align: start;
-padding-left: 20px;
+padding-left: 10px;
 display: none;
 }
 
@@ -77,18 +95,18 @@ display: none;
 
 .wrapper-headding-first{
     background-color: var(--middle);
-    width:65%;
-    height: 100vh;
+    width:60%;
+    padding-bottom: 200px;
 }
 
 .wrapper-headding-first-text{
     width: 80%;
-    margin: 15% 10px 0 130px;
+    margin: 15% 10px 0 160px;
     animation: mainHeading 1s ease-in-out ;
 }
 
 .wrapper-headding-first-text-h{
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: left;
     line-height: 1;
     color: var(--middle);
@@ -116,17 +134,66 @@ display: none;
 }
 
 .wrapper-heading-second{
-    width: 50%;
-    height: 100vh;
-    background-color:var(--right)
+    
+    width: 40%;
+    background-color:var(--right);
+    padding-bottom: 200px;
 }
 
 .ava{
     display: block;
+    justify-content: center;
     width:60%;
     margin: 17% auto;
    position: relative;
 }
+
+.about-wrapper{
+    display: flex;
+    background-color: var(--right);
+    height: 1000px;
+}
+
+.about-first{
+    width: 60%;
+    background-color: var(--middle);
+}
+
+.about-second{
+    width: 40%;
+    background-color: var(--right);
+}
+
+.about-first-text{
+    width: 60%;
+    margin: 0px 10px 0 160px;
+    animation: 1s;
+    
+}
+
+.about-first-text h2{
+    margin-bottom: 30px;
+    font-size: 5vw;
+    color: var(--accent);
+    
+}
+
+@keyframes mainHeading2 {
+    from{
+         transform:translateY(20%);
+    }
+     
+ }
+
+.about-first-text p{
+    
+    padding-top: 10%;
+    font-size: 1.5vw;
+    line-height: 1.8;
+    text-align: left;
+    color: var(--accent);
+}
+
 
 
 }

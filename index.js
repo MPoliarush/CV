@@ -35,3 +35,18 @@ navBar.addEventListener('mouseout',function(){
     })
     
 })
+
+
+let aboutY = document.querySelector('.about-first-text').offsetTop
+console.log(aboutY)
+
+
+window.addEventListener("scroll",function(){
+    console.log(window.scrollY+100)
+    if((window.scrollY+600) == aboutY){
+        document.querySelector('.about-first-text').style.animation = 'mainHeading2 1s ease-in-out'
+    }
+})
+
+
+
