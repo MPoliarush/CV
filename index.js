@@ -44,16 +44,23 @@ navBar.addEventListener('mouseout',function(){
 //     }
 // })
 
+
+
 let text = document.querySelector('.about-first-text')
 let textTop = text.getBoundingClientRect().top
 let windowheigth= window.innerHeight;
 console.log(textTop)
 console.log(windowheigth)
 
+if (windowheigth>textTop+200){
+    console.log('logged')
+    text.classList.add('about-first-text-active')
+}
+
 window.addEventListener("scroll",function(){
 console.log(textTop-windowheigth)
 console.log(window.pageYOffset)
-    if ( window.pageYOffset > textTop-windowheigth+200 ){
+    if ( window.pageYOffset > textTop-windowheigth+200){
         console.log('logged')
         text.classList.add('about-first-text-active')
     }
