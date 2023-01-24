@@ -13,8 +13,6 @@
 
 
 let navBar = document.getElementById('nav');
-console.log(navBar)
-
 
 navBar.addEventListener('mouseover',function(){
     
@@ -37,16 +35,26 @@ navBar.addEventListener('mouseout',function(){
 })
 
 
-let aboutY = document.querySelector('.about-first-text').offsetTop
-console.log(aboutY)
+// let aboutY = document.querySelector('.about-first-text').offsetTop
+// console.log(aboutY)
+// window.addEventListener("scroll",function(){
+//     console.log(window.scrollY+100)
+//     if((window.scrollY+600) == aboutY){
+//         document.querySelector('.about-first-text').style.animation = 'mainHeading2 1s ease-in-out'
+//     }
+// })
 
+let text = document.querySelector('.about-first-text')
+let textTop = text.getBoundingClientRect().top
+let windowheigth= window.innerHeight;
+console.log(textTop)
+console.log(windowheigth)
 
 window.addEventListener("scroll",function(){
-    console.log(window.scrollY+100)
-    if((window.scrollY+600) == aboutY){
-        document.querySelector('.about-first-text').style.animation = 'mainHeading2 1s ease-in-out'
+console.log(textTop-windowheigth)
+console.log(window.pageYOffset)
+    if ( window.pageYOffset > textTop-windowheigth+200 ){
+        console.log('logged')
+        text.classList.add('about-first-text-active')
     }
 })
-
-
-
