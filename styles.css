@@ -162,7 +162,8 @@ display: none;
     display: block;
     justify-content: center;
     width:60%;
-    
+    border-radius: 100%;
+    border: 1px solid;
     margin: 0 auto;
     z-index: 10;
 }
