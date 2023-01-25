@@ -80,7 +80,7 @@ let educationBlockHeight=document.querySelector('.education-second').getBounding
 console.log(courses)
 
 for( let i=0; i<courses.length;i++){
-    if (windowheigth>educationBlockHeight+200){
+    if (windowheigth>educationBlockHeight+400){
         // console.log('logged')
         appearence(courses[i],i)
     }
@@ -88,7 +88,7 @@ for( let i=0; i<courses.length;i++){
     window.addEventListener("scroll",function(){
     // console.log(textTop-windowheigth)
     // console.log(window.pageYOffset)
-        if ( window.pageYOffset > educationBlockHeight-windowheigth+200){
+        if ( window.pageYOffset > educationBlockHeight-windowheigth+400){
             // console.log('logged')
             appearence(courses[i],i)
         }

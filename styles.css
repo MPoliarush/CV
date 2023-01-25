@@ -59,7 +59,7 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin:100px auto 0;
+    margin:25vh auto ;
     gap: 50px;
 
 }
@@ -107,7 +107,7 @@ display: none;
 
 .wrapper-headding-first-text{
     width: 80%;
-    margin: 0 10px 0 160px;
+    margin: 0 10px 0 15%;
    
 }
 
@@ -243,7 +243,7 @@ display: none;
 }
 
 .education-first-text{
-    margin: 150px 10px 0 160px;
+    margin: 10% 10px 0 19%;
 }
 
 .education-first-text h2{
@@ -312,8 +312,8 @@ display: none;
 .course-logo-wrap img{
     display: block;
     margin: 0 auto;
-    width: 50px;
-    height: 50px;
+    width: 70%;
+    height: 50%;
 }
 
 .course-logo-wrap span{
@@ -327,7 +327,7 @@ display: none;
 
 .course ul li{
     
-    font-size: 1vw;
+    font-size: 1.2vw;
     text-align: left;
 }
 
