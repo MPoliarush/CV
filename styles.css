@@ -12,6 +12,7 @@ scroll-behavior:smooth;
     --middle: #0A043C;
     --right:#A3DDCB;
     --accent:#FFE3DE;
+    --normal:#28475C;
 }
 
 body{
@@ -142,6 +143,7 @@ display: none;
 
 .wrapper-heading-second-content{
     margin-top: 100px;
+    z-index: 10;
 }
 
 /* .back{
@@ -162,10 +164,9 @@ display: none;
     display: block;
     justify-content: center;
     width:60%;
-    border-radius: 100%;
-    border: 1px solid;
     margin: 0 auto;
     z-index: 10;
+    
 }
 
 .about-wrapper{
@@ -200,14 +201,14 @@ display: none;
     opacity:1;
 }
 
-.about-first::before{
+.about-first::after{
     content: '';
     position: absolute;
-    top: -200px;
+    top: -120px;
     width: 100%;
-   height: 140%;
+   height: 120%;
     background-image: url('images/network1.png');
-    background-size: cover;
+    background-size:cover;
    opacity: 0.1;
     
 }
@@ -227,6 +228,76 @@ display: none;
     line-height: 1.8;
     text-align: center;
     color: var(--accent);
+}
+
+
+.education-wrapper{
+    display: flex;
+}
+
+.education-first{
+    width: 50%;
+    background-color: var(--right);
+    
+}
+
+.education-first-text{
+    margin: 0 10px 0 160px;
+}
+
+.education-first-text h2{
+    padding-top: 50px;
+    font-size: 5vw;
+    color: var(--normal);
+}
+
+.education-first-text p{
+    width: 90%;
+    padding-top: 5%;
+    font-size: 1.5vw;
+    line-height: 1.8;
+    text-align: left;
+    color: var(--normal);
+}
+
+.education-second{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    background-color: var(--middle);
+    
+}
+
+.course{
+    display: flex;
+   box-sizing: border-box;
+    width: 100%;
+   
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    font-size: 2vw;
+    line-height: 1.8;
+    text-align: center;
+    color: var(--accent);
+}
+
+.course-logo-wrap{
+    
+    width: 30%;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.course-logo-wrap img{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+.course-logo-wrap span{
+    font-size: 1.5vw;
 }
 
 
