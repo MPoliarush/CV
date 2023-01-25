@@ -283,8 +283,12 @@ display: none;
     text-align: center;
     color: var(--accent);
     border-radius: 20px;
-    transition:all 1s ease-in 0s; 
     opacity:0;
+}
+
+.course:hover{
+    transition: all 0.2s ease-in;
+    background-color: rgba(54, 59, 145, 0.35);
 }
 
 .course-active{
@@ -348,11 +352,11 @@ display: none;
     padding: 10% 0 3%;
 }
 
-.projects-box{
+.skills-box{
     display: flex;
     flex-wrap: wrap;
-    width:85%;
-    margin:0 auto 0 7%;
+    width:65%;
+    margin:0 auto 0 15%;
     border:solid 5px var(--accent);
     border-radius: 40px;
     justify-content: space-around;
@@ -360,13 +364,31 @@ display: none;
     padding: 5%;
 }
 
-.project-item{
+.skills-item{
+    width:15%;
     padding: 2% 5%;
-    /* margin: 5%; */
-    
     border:solid 1px var(--right);
     border-radius: 10px;
+    margin: 2% 0;
+    transition: all 0.2s ease-in;
 }
+
+.skills-item:hover{
+    transition: all 0.2s ease-in;
+    background-color: rgba(54, 59, 145, 0.35);
+}
+
+.skills-item-content img{
+    display: block;
+    margin: 0 auto;
+}
+
+.skills-item-content span{
+    font-size: 1.3vw;
+    text-align: center;
+    color: var(--accent);
+}
+
 
 
 
