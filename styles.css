@@ -3,7 +3,7 @@ font-family: 'Poppins', sans-serif;
 margin: 0;
 padding: 0;
 scroll-behavior:smooth;
-
+/* border: solid white; */
 
 }
 
@@ -59,7 +59,7 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin:25vh auto ;
+    margin:18vh auto ;
     gap: 50px;
 
 }
@@ -272,8 +272,9 @@ display: none;
 .course{
     display: flex;
    box-sizing: border-box;
-    width: 100%;
-   
+    width: 90%;
+   margin-left: 5%;
+   margin-bottom: 2%;
     align-items: center;
     justify-content: center;
     border: 1px solid white;
@@ -281,6 +282,7 @@ display: none;
     line-height: 1.8;
     text-align: center;
     color: var(--accent);
+    border-radius: 20px;
     transition:all 1s ease-in 0s; 
     opacity:0;
 }
@@ -330,6 +332,43 @@ display: none;
     font-size: 1.2vw;
     text-align: left;
 }
+
+.skills-wrapper{
+    
+    background-color: var(--middle);  
+    margin: 2% 10% 5%;
+    text-align: center;
+}
+
+.skills-wrapper h2{
+   display: inline-block;
+   margin-left: 6%;
+    font-size: 5vw;
+    color: var(--accent);
+    padding: 10% 0 3%;
+}
+
+.projects-box{
+    display: flex;
+    flex-wrap: wrap;
+    width:85%;
+    margin:0 auto 0 7%;
+    border:solid 5px var(--accent);
+    border-radius: 40px;
+    justify-content: space-around;
+    gap:20px;
+    padding: 5%;
+}
+
+.project-item{
+    padding: 2% 5%;
+    /* margin: 5%; */
+    
+    border:solid 1px var(--right);
+    border-radius: 10px;
+}
+
+
 
 
 }
