@@ -310,7 +310,7 @@ display: none;
 .course-logo-wrap{
     
     width: 20%;
-    padding: 25px 10px;
+    padding: 15px 10px;
     text-align: center;
     margin-right:5%;
 }
@@ -323,17 +323,17 @@ display: none;
 }
 
 .course-logo-wrap span{
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 
 .course ul{
     width:60%;
-    padding:20px 20px 20px 0;
+    padding:10px 20px 10px 0;
 }
 
 .course ul li{
     
-    font-size: 1.2vw;
+    font-size: 1vw;
     text-align: left;
 }
 
@@ -349,7 +349,7 @@ display: none;
    margin-left: 6%;
     font-size: 5vw;
     color: var(--accent);
-    padding: 10% 0 3%;
+    padding: 10% 0 1%;
 }
 
 .skills-box{
@@ -361,12 +361,12 @@ display: none;
     border-radius: 40px;
     justify-content: space-around;
     gap:20px;
-    padding: 5%;
+    padding: 1% 5%;
 }
 
 .skills-item{
     width:15%;
-    padding: 2% 5%;
+    padding: 2% 2%;
     border:solid 1px var(--right);
     border-radius: 10px;
     margin: 2% 0;
@@ -384,7 +384,7 @@ display: none;
 }
 
 .skills-item-content span{
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-align: center;
     color: var(--accent);
 }
