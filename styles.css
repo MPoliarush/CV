@@ -138,7 +138,7 @@ display: none;
     width: 40%;
     background-color:var(--right);
     position: relative;
-    border-radius: 0 0 0 150px;
+    border-radius: 70px 0 0 70px;
 }
 
 .wrapper-heading-second-content{
@@ -239,7 +239,7 @@ display: none;
 .education-first{
     width: 50%;
     background-color: var(--right);
-    
+    border-radius: 0 70px 70px 0;
 }
 
 .education-first-text{
@@ -399,21 +399,29 @@ display: none;
     background-color: var(--middle);
     width:60%;
     padding-bottom: 10%;
-    border-top: 1px var(--accent) solid;
+    
 }
 
 .projects-second{
     width:40%;
     background-color: var(--right);
-    
 }
 
-.projects-first h2{
+.projects-second1{
+    border-radius: 70px 0 0  0px;
+}
+
+.projects-second-last{
+    border-radius: 0 0  0 70px;
+}
+.projects-wrapper h2{
     width: 70%;
-    margin-left: 15%;
+    margin-left: 25%;
     margin-top: 80px;
+    padding-bottom: 4%;
     font-size: 5vw;
     line-height: 1.3;
+    color: var(--accent);
 }
 
 .project-text-wrap{
@@ -448,7 +456,7 @@ font-size: 1vw;
 display: block;
 width:70%;
 
-margin: 20% auto;
+margin: 15% auto;
 border-radius: 20px;
 transition: 1s;
 animation: shadow infinite 3s;
@@ -456,7 +464,7 @@ animation: shadow infinite 3s;
 
 @keyframes shadow {
     0%,100%{
-
+        box-shadow: rgba(13, 15, 44, 0.1) 10px 22px 70px 4px;
     }
     50%{
         box-shadow: rgba(13, 15, 44, 0.7) 10px 22px 70px 4px;
@@ -469,10 +477,7 @@ animation: shadow infinite 3s;
     transform: scale(1.2);
 }
 
-.project-img1{
-    margin-top: 25vw;
-   
-}
+
 
 
 }
