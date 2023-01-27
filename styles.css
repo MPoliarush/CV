@@ -13,6 +13,7 @@ scroll-behavior:smooth;
     --right:#A3DDCB;
     --accent:#FFE3DE;
     --normal:#28475C;
+    --lighter:#4bb69b;
 }
 
 body{
@@ -423,7 +424,7 @@ display: none;
 
 .project-text-wrap span{
 font-size: 3.5vw;
-color: var(--normal);
+color: var(--right);
 font-weight: 800;
 }
 
