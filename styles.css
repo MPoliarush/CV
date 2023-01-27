@@ -459,17 +459,11 @@ width:70%;
 margin: 15% auto;
 border-radius: 20px;
 transition: 1s;
-animation: shadow infinite 3s;
+
+box-shadow: 3px 1px 43px 6px  rgba(19, 22, 56, 0.7)
 }
 
-@keyframes shadow {
-    0%,100%{
-        box-shadow: rgba(13, 15, 44, 0.1) 10px 22px 70px 4px;
-    }
-    50%{
-        box-shadow: rgba(13, 15, 44, 0.7) 10px 22px 70px 4px;
-    }
-}
+
 
 .project-img:hover {
     cursor: pointer;
