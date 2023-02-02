@@ -48,7 +48,7 @@ for ( const textBlock of texts){
     // console.log(textTop)
     // console.log(windowheigth)
     
-    if (windowheigth>textTop+200){
+    if (windowheigth>textTop+100){
         // console.log('logged')
         textBlock.classList.add('text-block-active')
     }
