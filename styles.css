@@ -542,13 +542,6 @@ nav{
     text-decoration: none;
 }
 
-.nav-item:hover{
-    border-radius: 15px;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding:10px 5px;
-    transition: 0.25s ease-in-out;
-}
 
 .nav-item img{
     display: inline;
@@ -563,12 +556,9 @@ padding-left: 10px;
 display: none;
 }
 
-.nav-item:hover{
-    cursor: pointer;
-   
-}
 
 .wrapper-headding-first{
+    margin-top: 5%;
     background-color: var(--middle);
     width:60%;
   
@@ -613,7 +603,7 @@ display: none;
 }
 
 .wrapper-heading-second-content{
-    margin-top: 15%;
+    margin-top: 25%;
     z-index: 10;
 }
 
@@ -761,10 +751,6 @@ display: none;
     opacity:0;
 }
 
-.course:hover{
-    transition: all 0.2s ease-in;
-    background-color: rgba(54, 59, 145, 0.35);
-}
 
 .course-active{
     transition:all 0.5s ease-in; 
@@ -848,10 +834,7 @@ display: none;
     transition: all 0.2s ease-in;
 }
 
-.skills-item:hover{
-    transition: all 0.2s ease-in;
-    background-color: rgba(54, 59, 145, 0.35);
-}
+
 
 .skills-item-content img{
     display: block;
@@ -938,11 +921,6 @@ transition: 1s;
 box-shadow: 3px 1px 43px 6px  rgba(19, 22, 56, 0.7)
 }
 
-.project-img:hover {
-    cursor: pointer;
-    transition: 1s;
-    transform: scale(1.2);
-}
 
 
 }
